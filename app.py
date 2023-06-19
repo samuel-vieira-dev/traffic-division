@@ -6,9 +6,8 @@ app = Flask(__name__)
 
 # Insira os três números de WhatsApp aqui (apenas números, sem caracteres especiais)
 WHATSAPP_NUMBERS = [
-    '554331423256',
-    '551151979433',
-    '5547997024495',
+    '553231981976',
+    '554331423424',
 ]
 
 DATABASE = 'counter.db'

@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 # Insira os três números de WhatsApp aqui (apenas números, sem caracteres especiais)
 WHATSAPP_NUMBERS = [
-    '553231981976',
-    '554331423424',
+    '5574999728473',
+    '554331423423',
 ]
 
 DATABASE = 'counter.db'
@@ -43,7 +43,7 @@ def redirect_to_whatsapp():
     init_db()
     index = get_and_update_counter()
     selected_number = WHATSAPP_NUMBERS[index]
-    return redirect(f'https://wa.me/{selected_number}', code=302)
+    return redirect(f'https://wa.me/{selected_number}?text=Quero%20receber%20meu%20acesso%20gratuito%20do%20Hacker%20Win', code=302)
 
 if __name__ == '__main__':
     app.run()

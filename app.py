@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Insira os três números de WhatsApp aqui (apenas números, sem caracteres especiais)
 WHATSAPP_NUMBERS = [
-    '5574999728473',
+    '553231981376',
     '554331423423',
 ]
 
